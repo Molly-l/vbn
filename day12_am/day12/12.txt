@@ -1,0 +1,21 @@
+前情回顾
+
+1. 多进程多线程并发模型
+
+   为每一个客户端单独创建进程或者线程，处理事物
+
+   fork_server
+   process_server
+   thread_server
+
+2. ftp文件服务器
+
+3. IO 模型
+
+   阻塞IO ： 默认形态  效率低  实现简单
+
+   非阻塞IO ： 将阻塞行为变为非阻塞 超时检测
+
+      setblocking()
+      settimeout()
+
