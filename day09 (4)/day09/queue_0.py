@@ -17,7 +17,6 @@ def request():
         t = (randint(1,100),randint(1,100))
         q.put(t)
         print("=====================")
-
 # 数据处理进程
 def handle():
     while True:
